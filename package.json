@@ -1,0 +1,31 @@
+{
+  "name": "cost-living",
+  "version": "1.0.0",
+  "description": "cost-living project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/www.js"
+  },
+  
+ 
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "mongo": "^0.1.0",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.9.0",
+    "mongoose-model-cli": "^1.4.0",
+    "mongosh": "^0.0.1",
+    "package.json": "^0.0.0"
+  },
+  "devDependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.18.2",
+    "http-errors": "~1.6.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  }
+}
